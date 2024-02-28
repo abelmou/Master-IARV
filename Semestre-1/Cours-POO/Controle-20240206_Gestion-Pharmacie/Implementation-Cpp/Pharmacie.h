@@ -9,9 +9,10 @@ using namespace std;
 
 class Pharmacie {
 private:
-    vector<Client> * clients;
-    vector<Medicament> * medicaments;
-
+    //vector<Client> * clients;
+    vector<Client*> clients;
+    //vector<Medicament> * medicaments;
+    vector<Medicament*> medicaments;
 public:
     void enregCl(const Client & client);
     void enregMed(const Medicament & medicament);
